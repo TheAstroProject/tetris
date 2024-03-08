@@ -6,7 +6,7 @@
       canvas: null,
       pSize: 20,
       canvasHeight: 440,
-      canvasWidth: 200,
+      canvasWidth: 260,
       boardHeight: 0,
       boardWidth: 0,
       spawnX: 4,

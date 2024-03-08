@@ -4,7 +4,7 @@
 
 body {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   overflow: hidden;
   background: #50727B;
 }
@@ -15,19 +15,20 @@ body {
 }
 
 #canvas {
-  width: 200px;
+  width: 260px;
   height: 440px;
   background-color: #000;
   position: relative;
   color: #fff;
 }
 
-canvas h1 {
+#canvas h1 {
   margin: 0;
   padding: 0;
   text-align: center;
   font-size: 30px;
   padding-top: 200px;
+  color: red;
 }
 
 .piece {
@@ -116,4 +117,14 @@ canvas h1 {
     margin-bottom: 8px;
     position: fixed;
     width: 100%;
+}
+
+/* this is styling for directions */
+.instructions, h2, ol {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: left;
+  align-items: center;
+  list-style-type: none;
 }
